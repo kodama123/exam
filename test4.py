@@ -182,7 +182,7 @@ N = int(args[1])
 #ログを格納する配列
 logs = []
 #ログの読み出し
-with open("log2.txt","r")as f:
+with open("log.txt","r")as f:
     for i in f:
         logs.append(i.strip("\n").split(","))
 check(logs,N)
